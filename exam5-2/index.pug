@@ -1,0 +1,11 @@
+html
+  head
+    title= title
+  body
+    h1= title
+    if user && user.accountID
+      h2= user.accountID
+    p
+      a(href="/login") Login page
+    p
+      a(href="/logout") Logout page

@@ -1,0 +1,17 @@
+{
+	"name": "exam4-2",
+	"version": "1.0.0",
+	"description": "create or update account form",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.16.4",
+		"firebase-admin": "^6.4.0",
+		"pug": "^2.0.3"
+	}
+}

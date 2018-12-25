@@ -1,0 +1,18 @@
+html
+  head
+    title= title
+  body
+    h1= title
+    p
+      a(href="/restricted") It's a secret page.
+    p
+      a(href="/secret") You wanna go?
+    if flash
+        p= flash.msg
+    if user && user.accountID
+      h2= user.accountID
+      p
+        a(href="/logout") Logout page
+    else
+      p
+        a(href="/login") Login page

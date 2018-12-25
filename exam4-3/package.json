@@ -1,0 +1,18 @@
+{
+	"name": "exam4-3",
+	"version": "1.0.0",
+	"description": "get account form data",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"firebase-admin": "^6.4.0",
+		"pug": "^2.0.3"
+	}
+}

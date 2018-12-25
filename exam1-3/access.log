@@ -1,0 +1,36 @@
+{
+    "method": "GET",
+    "host": "localhost:3000",
+    "url": "/hello",
+    "now": {
+        "today": "2018-12-22",
+        "time": "06:24:57"
+    }
+}
+{
+    "method": "GET",
+    "host": "localhost:3000",
+    "url": "/hello",
+    "now": {
+        "today": "2018-12-22",
+        "time": "06:25:02"
+    }
+}
+{
+    "method": "GET",
+    "host": "localhost:3000",
+    "url": "/hello",
+    "now": {
+        "date": "2018-12-22",
+        "time": "06:25:32"
+    }
+}
+{
+    "method": "GET",
+    "host": "localhost:3000",
+    "url": "/hello?location=world&name=bob",
+    "now": {
+        "date": "2018-12-22",
+        "time": "06:31:37"
+    }
+}

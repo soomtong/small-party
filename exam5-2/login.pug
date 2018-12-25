@@ -1,0 +1,18 @@
+html
+  head
+    title= title
+  body
+    h1= title
+    form(method="POST")
+      div
+        label(for="id") Account ID
+        p
+          input(type="text", name="account_id")#id
+      div
+        label(for="pw") Account Password
+        p
+          input(type="password", name="account_pw")#pw
+      div
+        input(type="submit", value="Login")
+    div
+      a(href="/") Go Home

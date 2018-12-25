@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+  body
+    h1= title
+    each post in posts
+      hr
+      div
+        p= post.title
+        div= post.content
+    p
+      a(href="/post") Posting
